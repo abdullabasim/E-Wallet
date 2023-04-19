@@ -39,7 +39,7 @@ Jizdan README is a document for the steps necessary to get your application up a
   * MAINTENANCE_MODE_CODE = 1032
   * VOUCHER_USED_CODE = 1033
 
-* Seeder create 3 accounts as shown below : (update 17/9/2022)
+* Seeder create 3 accounts as shown below :
   * username: admin@test.com / password : password
   * username: company@test.co / password : password
   * username: client@test.co / password : password
