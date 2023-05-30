@@ -1,13 +1,13 @@
 # README #
 
-Jizdan README is a document for the steps necessary to get your application up and running.
+E-Wallet README is a document for the steps necessary to get your application up and running.
 
 ### What is this repository for? ###
 
-* Jizdan : A digital wallet provided as B2B fintech services, which allow performing many operations such as deposit, withdraw, withdraw on behalf vouchers generation and voucher redeem.
+* E-Wallet : A digital wallet provided as B2B fintech services, which allow performing many operations such as deposit, withdraw, withdraw on behalf vouchers generation and voucher redeem.
 * Jizadn contains 3 type of users as shown below :
   admin: which has full access to create accounts, check all wallets, generate vouchers, logs, and reports.
-  company (merchant): used to access Jizdan APIs and control all clients related to the company (like a middleware). Currently, Eduba and Miswarak is a company. Each company should be created by the admin and assigned a merchant key to this company.
+  company (merchant): used to access E-Wallet APIs and control all clients related to the company (like a middleware). Currently, Eduba and Miswarak is a company. Each company should be created by the admin and assigned a merchant key to this company.
   client : related to the company (like the students in Eduba )can perform many operations like deposit, withdraw, withdraw on behalf and voucher redeem. The client may be related to many companies and can be distinguished by the merchant key in the request header.
 
 * Version 1
@@ -15,7 +15,7 @@ Jizdan README is a document for the steps necessary to get your application up a
 
 ### How do I get set up? ###
 
-* Jizdan is lumen application.
+* E-Wallet is lumen application.
 * Please run "Composer install" to install dependance.
 * Please run the seeder (CreateAccounts seeder) when migrate the data.
 * Please to generate passport client and put the details in .env file
